@@ -1,0 +1,5 @@
+Flask
+undetected-chromedriver
+selenium
+requests
+pdfplumber

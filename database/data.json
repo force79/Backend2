@@ -1,0 +1,87 @@
+{
+  "university": "SHRI RAMSWAROOP MEMORIAL UNIVERSITY",
+  "address": "Lucknow - Deva Road, Uttar Pradesh",
+  "report_title": "Student Attendance Report",
+  "student": {
+    "roll_no": "202510101310125",
+    "term": "2501",
+    "name": "Shubham Yadav Academic Level",
+    "academic_level": "01",
+    "course": "Bachelor of Computer Applicati"
+  },
+  "attendance_rows": [
+    {
+      "sno": 1,
+      "class_title": "Basic Mathematics-I",
+      "subject_code": "1007UMA",
+      "component": "Theory",
+      "total_lecture_conducted": 11,
+      "lecture_attended": 11,
+      "compensatory": 0,
+      "attendance_percent": 100
+    },
+    {
+      "sno": 2,
+      "class_title": "Computer Fundamentals and Applications",
+      "subject_code": "1011UCS",
+      "component": "Theory",
+      "total_lecture_conducted": 8,
+      "lecture_attended": 7,
+      "compensatory": 0,
+      "attendance_percent": 88
+    },
+    {
+      "sno": 3,
+      "class_title": "IT Management",
+      "subject_code": "1012UCS",
+      "component": "Theory",
+      "total_lecture_conducted": 6,
+      "lecture_attended": 4,
+      "compensatory": 0,
+      "attendance_percent": 67
+    },
+    {
+      "sno": 4,
+      "class_title": "Software Lab using Python",
+      "subject_code": "1201UCS",
+      "component": "Practical",
+      "total_lecture_conducted": 0,
+      "lecture_attended": 0,
+      "compensatory": 0,
+      "attendance_percent": 0
+    },
+    {
+      "sno": 5,
+      "class_title": "Computer Fundamentals and Applications Lab",
+      "subject_code": "1209UCS",
+      "component": "Practical",
+      "total_lecture_conducted": 0,
+      "lecture_attended": 0,
+      "compensatory": 0,
+      "attendance_percent": 0
+    },
+    {
+      "sno": 6,
+      "class_title": "Indian Knowledge System-I",
+      "subject_code": "1401IKS",
+      "component": "Theory",
+      "total_lecture_conducted": 4,
+      "lecture_attended": 4,
+      "compensatory": 0,
+      "attendance_percent": 100
+    },
+    {
+      "sno": 7,
+      "class_title": "Digital Aptitude and Logic",
+      "subject_code": "1501UCSSE",
+      "component": "Theory",
+      "total_lecture_conducted": 8,
+      "lecture_attended": 8,
+      "compensatory": 0,
+      "attendance_percent": 100
+    }
+  ],
+  "overall_attendance_percent": 91.89,
+  "overall_attendance_formula": "(Total Lecture Attended / Total Lecture Conducted) * 100",
+  "source_file": "SRM_STDN_ATT.pdf"
+}
