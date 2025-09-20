@@ -8,12 +8,19 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
+app = app 
 
 app = Flask(__name__)
 CORS(app)  # Allow all origins, needed for Vercel/Netlify frontend
 from flask_cors import CORS
+
+# Change this CORS configuration:
 CORS(app, resources={r"/*": {"origins": "https://frontend2-bice.vercel.app"}})
 
+# To this (allow both your frontend and Vercel deployment):
+CORS(app, resources={r"/*": {"origins": ["https://frontend2-bice.vercel.app", "https://backend2-eight-alpha.vercel.app/"]}})
+# Or allow all origins for testing:
+# CORS(app, resources={r"/*": {"origins": "*"}})
 
 DOWNLOAD_DIR = os.path.join(os.getcwd(), "downloads")
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -167,3 +174,4 @@ def api_download(filename):
 if __name__ == "__main__":
     print("Flask server starting on 0.0.0.0:5500")
     app.run(host="0.0.0.0", port=5500)
+
